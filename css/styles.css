@@ -1,26 +1,27 @@
+header { height: 120px; }
+header h3 { text-align: center; }
+#jenna { width: 35px; margin-right: 10px; }
+.nav { margin-top: 10px; max-width: 282px; margin: auto;}
 .content { width: 100%; height: 100%; padding-top: 120px; }
 .content > section { width: 100%; height: 100%; }
 .jumbotron { margin-bottom: 0; }
 .row { margin-right: 0; margin-left: 0; }
 #about { text-align: center; background-color: #846c90; }
-#contact { height: 300px; padding-top: 60px; }
 a { color: #b1767c; font-weight: 500; font-size: 18px; }
-header { height: 120px; }
-header h3 { text-align: center; }
-.nav { margin-top: 10px; max-width: 282px; margin: auto;}
 h2, .h2 { color: #343e62; text-align: center; margin-bottom: 20px; }
 h3, .h3 { color: #343e62; margin-bottom: 20px; }
 footer { text-align: center; padding: 30px 10px; }
 .item img { width: 350px; margin: auto; }
 .activePosition { background-color: #846c90; }
+.carousel { padding-bottom: 100px; }
 .carousel-indicators li { border: 1px solid #343e62; }
 .carousel-indicators .active { background-color: #343e62; }
 .icon-prev:before, .icon-next:before { color: #343e62; }
-#jenna { width: 35px; margin-right: 10px; }
+.modal-body p { font-size: 18px; }
+#contact { height: 300px; padding-top: 60px; }
 svg { transition: transform .4s ease-out; margin: 0 5px; }
 svg:hover { transform: scale(1.3); -webkit-transform: scale(1.3); -ms-transform: scale(1.3); }
-.carousel { padding-bottom: 100px; }
-.btn-primary { background-color: #b1767c; border: 1px solid #b1767c; }
+.btn-primary, .btn-primary:active, .btn-primary:focus { background-color: #b1767c; border: 1px solid #b1767c; }
 .btn-primary:hover { background-color: #b1767c; border: 1px solid #b1767c; position: relative; top: 1px; cursor: pointer; }
 
 @media (min-width: 768px) {
