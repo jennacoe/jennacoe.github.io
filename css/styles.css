@@ -31,6 +31,6 @@ svg:hover { transform: scale(1.3); -webkit-transform: scale(1.3); -ms-transform:
 	.content { padding-top: 65px; }
 	.nav { padding-top: 10px; }
 	#about { background-image: url('../img/grand-canyon.jpg'); background-repeat: no-repeat; background-size: cover; min-height: 500px; }
-	#about .container { background-color: rgba(255,255,255,0.4); margin-top: 40px; }
+	#about .container { background-color: rgba(255,255,255,0.7); margin-top: 40px; border-radius: 3px; -webkit-border-radius: 3px; box-shadow: 5px 5px 5px rgba(50,50,50,0.5); -webkit-box-shadow: 5px 5px 5px rgba(50,50,50,0.5); }
 	h2, .h2 { color: #846c90; text-shadow: 1px 1px #000; }
 }
